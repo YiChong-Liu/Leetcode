@@ -4,7 +4,7 @@ public class q134 {
     public int canCompleteCircuit(int[] gas, int[] cost) {
 
         int len = gas.length;
-        /*int sum = 0;
+        int sum = 0;
 
 
         for(int i = 0; i < len; i++) {
@@ -14,9 +14,9 @@ public class q134 {
         // Total amount of gas is less than the total cost
         if(sum < 0) {
             return -1;
-        }*/
+        }
 
-        int start = -1;
+        int start = 0;
         int myGas = 0;
         for(int i = 0; i < len; i++) {
             myGas += gas[i] - cost[i];
