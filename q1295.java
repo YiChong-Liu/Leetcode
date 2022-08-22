@@ -1,4 +1,4 @@
-public class findEvenDigit {
+public class q1295 {
 
     // Given an array nums of integers
     // return how many of them contain an even number of digits.
@@ -22,7 +22,7 @@ public class findEvenDigit {
         return digit;
     }
     public static void main(String[] args) {
-        findEvenDigit sol = new findEvenDigit();
+        q1295 sol = new q1295();
         int []nums = {12, 13, 14, 123, 124, 234};
         System.out.println(sol.findNumbers(nums));
     }
